@@ -1,0 +1,15 @@
+public class Nabid {
+    String name,gender;
+    int age;
+    public static void main(String[] args) {
+        Nabid n = new Nabid();
+        n.name = "Nabid Zaman";
+        n.gender = "Male";
+        n.age = 23;
+        
+        System.out.println("Name: "+n.name);
+        System.out.println("Gender: "+n.gender);
+        System.out.println("Age: "+n.age);
+        
+    }
+}
