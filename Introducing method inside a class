@@ -1,0 +1,18 @@
+public class Nabid {
+    String name,gender;
+    String phone;
+    
+    void display(){
+        System.out.println("Name: "+name);
+        System.out.println("Gender: "+gender);
+        System.out.println("Mobile number: "+phone);
+        
+    }
+        public static void main(String[] args) {
+            Nabid n = new Nabid();
+            n.name = "Nabid Zaman";
+            n.gender = "Male";
+            n.phone = "01774178696";
+            n.display();
+        }
+}
