@@ -1,0 +1,30 @@
+public class Nabid {
+    String name,gender;
+    String phone;
+    
+    void setInformation(String n, String g, String p){
+        name = n;
+        gender = g;
+        phone = p;
+    }
+    
+    void display(){
+        System.out.println("Name: "+name);
+        System.out.println("Gender: "+gender);
+        System.out.println("Mobile number: "+phone);
+        System.out.println("\n");
+    }
+        public static void main(String[] args) {
+            Nabid n = new Nabid();
+            n.setInformation("Nabid","Male","01774178696");
+            n.display();
+            
+            Nabid n1 = new Nabid();
+            n1.setInformation("Abid Zaman","Male","01709064376");
+            n1.display();
+            
+            Nabid n2 = new Nabid();
+            n2.setInformation("Dilruba Sultana","Female","01735712650");
+            n2.display();
+        }
+}
